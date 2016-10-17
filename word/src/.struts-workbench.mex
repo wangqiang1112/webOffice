@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="workbench" location="254,270" size="1680,350">
+    <action name="systemCombination2" location="1465,57" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="systemCombination.jsp" />
+      </result>
+    </action>
+    <action name="updateSystemForWorkbench2" location="1465,163" size="150,40" />
+    <action name="getWorkbenchShow" location="1465,267" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="workbenchShow.jsp" />
+      </result>
+    </action>
+    <action name="getfivewindowContent" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="fivewindow.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="getsixwindowContent" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="sixwindow.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="getfourwindowContent" location="65,152" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="fourwindow.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="gettwowindowContent" location="975,257" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="twowindow.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="getonewindowContent" location="1220,257" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="onewindow.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="getthreewindowContent" location="695,257" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="threewindow.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="toUpdateSystemForWorkbench" location="310,162" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="updateSystemForWorkbench.jsp" />
+      </result>
+    </action>
+    <action name="updateSystemForWorkbench" location="555,163" size="150,40" />
+    <action name="updateSubSystemForWorkbench" location="555,58" size="150,40" />
+  </package>
+  <webResource name="systemCombination.jsp" path="jsp/workbench/systemCombination.jsp" location="1669,115" size="150,55" />
+  <webResource name="WorkbenchShow2.jsp" path="jsp/workbench/WorkbenchShow2.jsp" location="1989,500" size="150,55" />
+  <webResource name="onewindow.jsp" path="/jsp/workbench/onewindow.jsp" location="1446,675" size="150,55" />
+  <webResource name="error.jsp" path="/jsp/workbench/error.jsp" location="939,10" size="150,55" />
+  <webResource name="twowindow.jsp" path="/jsp/workbench/twowindow.jsp" location="1201,675" size="150,55" />
+  <webResource name="threewindow.jsp" path="/jsp/workbench/threewindow.jsp" location="917,675" size="150,55" />
+  <webResource name="fourwindow.jsp" path="/jsp/workbench/fourwindow.jsp" location="10,395" size="150,55" />
+  <webResource name="updateSystemForWorkbench.jsp" path="/jsp/workbench/updateSystemForWorkbench.jsp" location="485,115" size="150,55" />
+  <webResource name="workbenchShow.jsp" path="newjsp/workbench/workbenchShow.jsp" location="0,0" size="0,0" />
+  <webResource name="fourwindow.jsp" path="newjsp/workbench/fourwindow.jsp" location="0,0" size="0,0" />
+  <webResource name="error.jsp" path="newjsp/workbench/error.jsp" location="0,0" size="0,0" />
+  <webResource name="twowindow.jsp" path="newjsp/workbench/twowindow.jsp" location="0,0" size="0,0" />
+  <webResource name="fivewindow.jsp" path="newjsp/workbench/fivewindow.jsp" location="0,0" size="0,0" />
+  <webResource name="sixwindow.jsp" path="newjsp/workbench/sixwindow.jsp" location="0,0" size="0,0" />
+  <webResource name="threewindow.jsp" path="newjsp/workbench/threewindow.jsp" location="0,0" size="0,0" />
+  <webResource name="onewindow.jsp" path="newjsp/workbench/onewindow.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

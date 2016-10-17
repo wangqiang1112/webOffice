@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="multilevellogin" location="10,10" size="1260,1715">
+    <action name="importPKI" location="555,303" size="150,40" />
+    <action name="pkiGroupTree" location="555,407" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="pkiGroupTree.jsp" />
+      </result>
+    </action>
+    <action name="createPkiGroup" location="310,408" size="150,40" />
+    <action name="editPkiGroup" location="310,128" size="150,40" />
+    <action name="delPkiGroup" location="800,128" size="150,40" />
+    <action name="existsPkiGroup" location="800,233" size="150,40" />
+    <action name="createPki" location="800,338" size="150,40" />
+    <action name="editPki" location="1045,338" size="150,40" />
+    <action name="delPki" location="1045,58" size="150,40" />
+    <action name="existsPki" location="65,58" size="150,40" />
+    <action name="toListPki" location="65,582" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="toListPki.jsp" />
+      </result>
+    </action>
+    <action name="listPki" location="65,757" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="listPki.jsp" />
+      </result>
+    </action>
+    <action name="toListPkiGroup" location="65,932" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="toListPkiGroup.jsp" />
+      </result>
+    </action>
+    <action name="listPkiGroup" location="65,1107" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="listPkiGroup.jsp" />
+      </result>
+    </action>
+    <action name="toMultilevelSystemUrl" location="65,1282" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="multilevelSystemUrl.jsp" />
+      </result>
+    </action>
+    <action name="listMultilevelSystemUrl" location="65,1457" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="multilevelSystemUrlList.jsp" />
+      </result>
+    </action>
+    <action name="existsMultilevelLogin" location="65,1633" size="150,40" />
+    <action name="addMultilevelLogin" location="555,1633" size="150,40" />
+    <action name="editMultilevelLogin" location="555,1528" size="150,40" />
+    <action name="delMultilevelLogin" location="310,1527" size="150,41">
+      <result name="success" />
+    </action>
+  </package>
+  <webResource name="pkiGroupTree.jsp" path="jsp/multilevellogin/pkiGroupTree.jsp" location="1327,380" size="150,55" />
+  <webResource name="toListPki.jsp" path="jsp/multilevellogin/toListPki.jsp" location="1309,555" size="150,55" />
+  <webResource name="listPki.jsp" path="jsp/multilevellogin/listPki.jsp" location="1316,730" size="150,55" />
+  <webResource name="toListPkiGroup.jsp" path="jsp/multilevellogin/toListPkiGroup.jsp" location="1325,905" size="150,55" />
+  <webResource name="listPkiGroup.jsp" path="jsp/multilevellogin/listPkiGroup.jsp" location="1333,1080" size="150,55" />
+  <webResource name="multilevelSystemUrl.jsp" path="jsp/multilevellogin/multilevelSystemUrl.jsp" location="1312,1255" size="150,55" />
+  <webResource name="multilevelSystemUrlList.jsp" path="jsp/multilevellogin/multilevelSystemUrlList.jsp" location="1337,1430" size="150,55" />
+</Struts2Diagram>
+

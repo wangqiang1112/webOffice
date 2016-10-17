@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="common" location="367,10" size="525,315">
+    <action name="getGroupTree" location="310,57" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getGroupInfoTree.jsp" />
+      </result>
+    </action>
+    <action name="getGroupRadioTreeHasVirtual" location="310,232" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getGroupRadioTreeHasVirtual.jsp" />
+      </result>
+    </action>
+    <action name="getGroupRadioTree" location="65,232" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getGroupRadioTree.jsp" />
+      </result>
+    </action>
+    <action name="getGroupRadioTreeForDevice" location="65,127" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getGroupRadioTreeForDevice.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="getGroupInfoTree.jsp" path="jsp/common/getGroupInfoTree.jsp" location="953,30" size="150,55" />
+  <webResource name="getGroupRadioTreeHasVirtual.jsp" path="jsp/common/getGroupRadioTreeHasVirtual.jsp" location="953,205" size="150,55" />
+  <webResource name="getGroupRadioTree.jsp" path="jsp/common/getGroupRadioTree.jsp" location="388,380" size="150,55" />
+  <webResource name="getGroupRadioTreeForDevice.jsp" path="jsp/common/getGroupRadioTreeForDevice.jsp" location="9,100" size="150,55" />
+</Struts2Diagram>
+

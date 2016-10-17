@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="statisticalAnalysisAction" location="0,0" size="0,0">
+    <action name="auditRankPki" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="auditRankPki.jsp" />
+      </result>
+    </action>
+    <action name="auditRankKey" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="auditRankKey.jsp" />
+      </result>
+    </action>
+    <action name="exportWarnDevicesListData" location="0,0" size="0,0" />
+    <action name="exportWarnDomainListData" location="0,0" size="0,0" />
+    <action name="exportAuditDevicesListData" location="0,0" size="0,0" />
+    <action name="exportAuditDomainListData" location="0,0" size="0,0" />
+    <action name="exportAuditTitleListData" location="0,0" size="0,0" />
+    <action name="warnDevicesList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="warnDevicesList.jsp" />
+      </result>
+    </action>
+    <action name="auditDevicesList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="auditDevicesList.jsp" />
+      </result>
+    </action>
+    <action name="getTitleCategoryList" location="0,0" size="0,0" />
+    <action name="getWarnRankDomainList" location="0,0" size="0,0" />
+    <action name="getWarnDomainList" location="0,0" size="0,0" />
+    <action name="getWarnRankDevicesList" location="0,0" size="0,0" />
+    <action name="getWarnTotalList" location="0,0" size="0,0" />
+    <action name="getWarnTrendList" location="0,0" size="0,0" />
+    <action name="terminalAccessStatisticsList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getTerminalAccessStatisticsList.jsp" />
+      </result>
+    </action>
+    <action name="accessOverview" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="accessOverview.jsp" />
+      </result>
+    </action>
+    <action name="accessTrend" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="accessTrend.jsp" />
+      </result>
+    </action>
+    <action name="accessRanking" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="accessRanking.jsp" />
+      </result>
+    </action>
+    <action name="domainAccessRanking" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="domainAccessRanking.jsp" />
+      </result>
+    </action>
+    <action name="accessStatistics" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="accessStatistics.jsp" />
+      </result>
+    </action>
+    <action name="terminalAccessStatistics" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="terminalAccessStatistics.jsp" />
+      </result>
+    </action>
+    <action name="warnOverview" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="warnOverview.jsp" />
+      </result>
+    </action>
+    <action name="warnTrend" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="warnTrend.jsp" />
+      </result>
+    </action>
+    <action name="warnRanking" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="warnRanking.jsp" />
+      </result>
+    </action>
+    <action name="domainWarnRanking" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="domainWarnRanking.jsp" />
+      </result>
+    </action>
+    <action name="terminalWarnStatistics" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="terminalWarnStatistics.jsp" />
+      </result>
+    </action>
+    <action name="terminalWarnStatisticsList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="terminalWarnStatisticsList.jsp" />
+      </result>
+    </action>
+    <action name="getApp_RealDomain" location="0,0" size="0,0" />
+    <action name="getStatisticalAnalysisLeftMenu" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getStatisticalAnalysisLeftMenu.jsp" />
+      </result>
+    </action>
+    <action name="getRequestLogStatistical" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getRequestLogStatistical.jsp" />
+      </result>
+    </action>
+    <action name="getWarnLogStatistical" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getWarnLogStatistical.jsp" />
+      </result>
+    </action>
+    <action name="getSummaryStatisticsList" location="0,0" size="0,0" />
+    <action name="getStatisticalTrendList" location="0,0" size="0,0" />
+    <action name="getAccessRankList" location="0,0" size="0,0" />
+    <action name="getRequestRankList" location="0,0" size="0,0" />
+    <action name="getWarnList" location="0,0" size="0,0" />
+    <action name="getWarnTrend" location="0,0" size="0,0" />
+    <action name="getAppSystem" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAppSystemTree.jsp" />
+      </result>
+    </action>
+    <action name="getAppSystem1" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAppSystemTree1.jsp" />
+      </result>
+    </action>
+    <action name="getAppSystem2" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAppSystemTree2.jsp" />
+      </result>
+    </action>
+    <action name="getStatisticalList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getStatisticalList.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="getStatisticalAnalysisLeftMenu.jsp" path="jsp/statisticalAnalysis/getStatisticalAnalysisLeftMenu.jsp" location="1369,240" size="150,55" />
+  <webResource name="getRequestLogStatistical.jsp" path="jsp/statisticalAnalysis/getRequestLogStatistical.jsp" location="1385,415" size="150,55" />
+  <webResource name="getWarnLogStatistical.jsp" path="jsp/statisticalAnalysis/getWarnLogStatistical.jsp" location="1393,590" size="150,55" />
+  <webResource name="getAppSystemTree.jsp" path="jsp/statisticalAnalysis/getAppSystemTree.jsp" location="1366,765" size="150,55" />
+  <webResource name="getAppSystemTree1.jsp" path="jsp/statisticalAnalysis/getAppSystemTree1.jsp" location="1397,940" size="150,55" />
+  <webResource name="getAppSystemTree2.jsp" path="jsp/statisticalAnalysis/getAppSystemTree2.jsp" location="312,1115" size="150,55" />
+  <webResource name="getStatisticalList.jsp" path="jsp/statisticalAnalysis/getStatisticalList.jsp" location="10,835" size="150,55" />
+  <webResource name="accessOverview.jsp" path="newjsp/statistics/accessOverview.jsp" location="0,0" size="0,0" />
+  <webResource name="accessTrend.jsp" path="newjsp/statistics/accessTrend.jsp" location="0,0" size="0,0" />
+  <webResource name="accessRanking.jsp" path="newjsp/statistics/accessRanking.jsp" location="0,0" size="0,0" />
+  <webResource name="domainAccessRanking.jsp" path="newjsp/statistics/domainAccessRanking.jsp" location="0,0" size="0,0" />
+  <webResource name="accessStatistics.jsp" path="newjsp/statistics/accessStatistics.jsp" location="0,0" size="0,0" />
+  <webResource name="terminalAccessStatistics.jsp" path="newjsp/statistics/terminalAccessStatistics.jsp" location="0,0" size="0,0" />
+  <webResource name="warnOverview.jsp" path="newjsp/statistics/warnOverview.jsp" location="0,0" size="0,0" />
+  <webResource name="warnTrend.jsp" path="newjsp/statistics/warnTrend.jsp" location="0,0" size="0,0" />
+  <webResource name="warnRanking.jsp" path="newjsp/statistics/warnRanking.jsp" location="0,0" size="0,0" />
+  <webResource name="domainWarnRanking.jsp" path="newjsp/statistics/domainWarnRanking.jsp" location="0,0" size="0,0" />
+  <webResource name="terminalWarnStatistics.jsp" path="newjsp/statistics/terminalWarnStatistics.jsp" location="0,0" size="0,0" />
+  <webResource name="getTerminalAccessStatisticsList.jsp" path="newjsp/statistics/getTerminalAccessStatisticsList.jsp" location="0,0" size="0,0" />
+  <webResource name="terminalWarnStatisticsList.jsp" path="newjsp/statistics/terminalWarnStatisticsList.jsp" location="0,0" size="0,0" />
+  <webResource name="auditDevicesList.jsp" path="newjsp/statistics/auditDevicesList.jsp" location="0,0" size="0,0" />
+  <webResource name="warnDevicesList.jsp" path="newjsp/statistics/warnDevicesList.jsp" location="0,0" size="0,0" />
+  <webResource name="auditRankPki.jsp" path="newjsp/statistics/auditRankPki.jsp" location="0,0" size="0,0" />
+  <webResource name="auditRankKey.jsp" path="newjsp/statistics/auditRankKey.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

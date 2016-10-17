@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="auditquery" location="0,0" size="0,0">
+    <action name="requestInfo" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="requestInfo.jsp" />
+      </result>
+    </action>
+    <action name="requestInfoList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="requestInfoList.jsp" />
+      </result>
+    </action>
+    <action name="onRequest" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="onRequest.jsp" />
+      </result>
+    </action>
+    <action name="onRequestList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="onRequestList.jsp" />
+      </result>
+    </action>
+    <action name="export_cascadeQueryList" location="0,0" size="0,0" />
+    <action name="cascadeQuery" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="cascadeQuery.jsp" />
+      </result>
+    </action>
+    <action name="cascadeQueryList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="cascadeQueryList.jsp" />
+      </result>
+    </action>
+    <action name="listURl" location="0,0" size="0,0" />
+    <action name="ListAuditCount" location="0,0" size="0,0" />
+    <action name="export_AuditQueryList" location="0,0" size="0,0" />
+    <action name="export_allAuditQueryList" location="0,0" size="0,0" />
+    <action name="departmentOption" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="deptIdOption.jsp" />
+      </result>
+    </action>
+    <action name="realDomainTree" location="0,0" size="0,0" />
+    <action name="realDomainAppSystemTree" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAppSystemTree2.jsp" />
+      </result>
+    </action>
+    <action name="allAppWarm" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="allAppWarm.jsp" />
+      </result>
+    </action>
+    <action name="allAppWarmList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="allAppWarmList.jsp" />
+      </result>
+    </action>
+    <action name="auditQuery" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="auditQuery.jsp" />
+      </result>
+    </action>
+    <action name="auditQueryList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="auditQueryList.jsp" />
+      </result>
+    </action>
+    <action name="allAuditQuery" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="allAuditQuery.jsp" />
+      </result>
+    </action>
+    <action name="allAuditQueryList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="allAuditQueryList.jsp" />
+      </result>
+    </action>
+    <action name="newAppWarm" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appWarm.jsp" />
+      </result>
+    </action>
+    <action name="newAppWarmList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appWarnList.jsp" />
+      </result>
+    </action>
+    <action name="listAllTitleRegisterTree" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAppSystemTree3.jsp" />
+      </result>
+    </action>
+    <action name="size" location="0,0" size="0,0" />
+    <action name="appgaojing6" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAppSystemTree6.jsp" />
+      </result>
+    </action>
+    <action name="appgaojing7" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAppSystemTree7.jsp" />
+      </result>
+    </action>
+    <action name="appgaojing5" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAppSystemTree4.jsp" />
+      </result>
+    </action>
+    <action name="appgaojing4" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAppSystemTree3.jsp" />
+      </result>
+    </action>
+    <action name="tongjiLeftMenuList" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="tjLeftMenu.jsp" />
+      </result>
+    </action>
+    <action name="toall" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appAlls.jsp" />
+      </result>
+    </action>
+    <action name="alllist" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="alllist.jsp" />
+      </result>
+    </action>
+    <action name="toall2" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appAlls2.jsp" />
+      </result>
+    </action>
+    <action name="alllist2" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="alllist2.jsp" />
+      </result>
+    </action>
+    <action name="alllike" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="list.jsp" />
+      </result>
+    </action>
+    <action name="getLeftMenuOfAppAudit" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appAuditLeftMenu.jsp" />
+      </result>
+    </action>
+    <action name="getLeftMenuOfAppWarn" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appWarnLeftMenu.jsp" />
+      </result>
+    </action>
+    <action name="gaojing" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="gaojing.jsp" />
+      </result>
+    </action>
+    <action name="treelists0" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appWarnAuditList.jsp" />
+      </result>
+    </action>
+    <action name="appTrees" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appAuditTree.jsp" />
+      </result>
+    </action>
+    <action name="appkeys" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appKeys.jsp" />
+      </result>
+    </action>
+    <action name="qqs" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="qqs.jsp" />
+      </result>
+    </action>
+    <action name="appgaojing" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="warnConfigSystemTree.jsp" />
+      </result>
+    </action>
+    <action name="appgaojing2" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAppSystemTree1.jsp" />
+      </result>
+    </action>
+    <action name="togd" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="audits.jsp" />
+      </result>
+    </action>
+    <action name="toapplist" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appnews.jsp" />
+      </result>
+    </action>
+    <action name="listAudit" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="auditList.jsp" />
+      </result>
+    </action>
+    <action name="appgaojing3" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAppSystemTree2.jsp" />
+      </result>
+    </action>
+    <action name="getSystemTree" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getSystemTree.jsp" />
+      </result>
+    </action>
+    <action name="listRequestRegisters" location="0,0" size="0,0" />
+    <action name="toAppReqAudit" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appReqAudit.jsp" />
+      </result>
+    </action>
+    <action name="listAppReqAudit" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appReqAuditList.jsp" />
+      </result>
+    </action>
+    <action name="exportAppReqAuditData" location="0,0" size="0,0" />
+    <action name="toAppResAudit" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appResAudit.jsp" />
+      </result>
+    </action>
+    <action name="listAppResAudit" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appResAuditList.jsp" />
+      </result>
+    </action>
+    <action name="exportAppResAuditData" location="0,0" size="0,0" />
+    <action name="showResDetail" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="responseDetail.jsp" />
+      </result>
+    </action>
+    <action name="toAppWarnAudit" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appWarnAudit.jsp" />
+      </result>
+    </action>
+    <action name="listAppWarnAudit" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appWarnAuditList.jsp" />
+      </result>
+    </action>
+    <action name="exportAppWarnAuditData" location="0,0" size="0,0" />
+    <action name="toEditRequests" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="editRequests.jsp" />
+      </result>
+    </action>
+    <action name="editRequests" location="0,0" size="0,0" />
+    <action name="manualWarn" location="0,0" size="0,0" />
+    <action name="toDirectAddSubSys" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="directRegSubSys.jsp" />
+      </result>
+    </action>
+    <action name="toDirectAddFromWarn" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="directRegSubSys.jsp" />
+      </result>
+    </action>
+    <action name="toUpdateSystemName" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="updateSystemName.jsp" />
+      </result>
+    </action>
+    <action name="updateSystemName" location="0,0" size="0,0" />
+  </package>
+  <webResource name="onRequest.jsp" path="newjsp/auditQuery/onRequest.jsp" location="0,0" size="0,0" />
+  <webResource name="onRequestList.jsp" path="newjsp/auditQuery/onRequestList.jsp" location="0,0" size="0,0" />
+  <webResource name="cascadeQuery.jsp" path="newjsp/auditQuery/cascadeQuery.jsp" location="0,0" size="0,0" />
+  <webResource name="cascadeQueryList.jsp" path="newjsp/auditQuery/cascadeQueryList.jsp" location="0,0" size="0,0" />
+  <webResource name="deptIdOption.jsp" path="newjsp/auditQuery/deptIdOption.jsp" location="0,0" size="0,0" />
+  <webResource name="getAppSystemTree2.jsp" path="jsp/newAppAuditQuery/getAppSystemTree2.jsp" location="0,0" size="0,0" />
+  <webResource name="allAppWarm.jsp" path="newjsp/auditQuery/allAppWarm.jsp" location="0,0" size="0,0" />
+  <webResource name="allAppWarmList.jsp" path="newjsp/auditQuery/allAppWarmList.jsp" location="0,0" size="0,0" />
+  <webResource name="auditQuery.jsp" path="newjsp/auditQuery/auditQuery.jsp" location="0,0" size="0,0" />
+  <webResource name="auditQueryList.jsp" path="newjsp/auditQuery/auditQueryList.jsp" location="0,0" size="0,0" />
+  <webResource name="allAuditQuery.jsp" path="newjsp/auditQuery/allAuditQuery.jsp" location="0,0" size="0,0" />
+  <webResource name="allAuditQueryList.jsp" path="newjsp/auditQuery/allAuditQueryList.jsp" location="0,0" size="0,0" />
+  <webResource name="appWarm.jsp" path="newjsp/auditQuery/appWarm.jsp" location="0,0" size="0,0" />
+  <webResource name="appWarnList.jsp" path="newjsp/auditQuery/appWarnList.jsp" location="0,0" size="0,0" />
+  <webResource name="getAppSystemTree3.jsp" path="jsp/newAppAuditQuery/getAppSystemTree3.jsp" location="0,0" size="0,0" />
+  <webResource name="getAppSystemTree6.jsp" path="jsp/newAppAuditQuery/getAppSystemTree6.jsp" location="0,0" size="0,0" />
+  <webResource name="getAppSystemTree7.jsp" path="jsp/newAppAuditQuery/getAppSystemTree7.jsp" location="0,0" size="0,0" />
+  <webResource name="getAppSystemTree4.jsp" path="jsp/newAppAuditQuery/getAppSystemTree4.jsp" location="0,0" size="0,0" />
+  <webResource name="tjLeftMenu.jsp" path="jsp/newAppAuditQuery/tjLeftMenu.jsp" location="0,0" size="0,0" />
+  <webResource name="appAlls.jsp" path="jsp/newAppAuditQuery/appAlls.jsp" location="0,0" size="0,0" />
+  <webResource name="alllist.jsp" path="jsp/newAppAuditQuery/alllist.jsp" location="0,0" size="0,0" />
+  <webResource name="appAlls2.jsp" path="jsp/newAppAuditQuery/appAlls2.jsp" location="0,0" size="0,0" />
+  <webResource name="alllist2.jsp" path="jsp/newAppAuditQuery/alllist2.jsp" location="0,0" size="0,0" />
+  <webResource name="list.jsp" path="jsp/newAppAuditQuery/list.jsp" location="0,0" size="0,0" />
+  <webResource name="appAuditLeftMenu.jsp" path="jsp/subSystems/auditquery/appAuditLeftMenu.jsp" location="0,0" size="0,0" />
+  <webResource name="appWarnLeftMenu.jsp" path="jsp/subSystems/appWarn/appWarnLeftMenu.jsp" location="0,0" size="0,0" />
+  <webResource name="gaojing.jsp" path="jsp/newAppAuditQuery/gaojing.jsp" location="0,0" size="0,0" />
+  <webResource name="appWarnAuditList.jsp" path="jsp/subSystems/auditquery/appWarnAuditList.jsp" location="0,0" size="0,0" />
+  <webResource name="appAuditTree.jsp" path="jsp/newAppAuditQuery/appAuditTree.jsp" location="0,0" size="0,0" />
+  <webResource name="appKeys.jsp" path="jsp/newAppAuditQuery/appKeys.jsp" location="0,0" size="0,0" />
+  <webResource name="qqs.jsp" path="jsp/newAppAuditQuery/qqs.jsp" location="0,0" size="0,0" />
+  <webResource name="warnConfigSystemTree.jsp" path="jsp/sysConfig/warnConfigSystemTree.jsp" location="0,0" size="0,0" />
+  <webResource name="getAppSystemTree1.jsp" path="jsp/newAppAuditQuery/getAppSystemTree1.jsp" location="0,0" size="0,0" />
+  <webResource name="audits.jsp" path="jsp/newAppAuditQuery/audits.jsp" location="0,0" size="0,0" />
+  <webResource name="appnews.jsp" path="jsp/newAppAuditQuery/appnews.jsp" location="0,0" size="0,0" />
+  <webResource name="auditList.jsp" path="jsp/newAppAuditQuery/auditList.jsp" location="0,0" size="0,0" />
+  <webResource name="getSystemTree.jsp" path="jsp/subSystems/auditquery/getSystemTree.jsp" location="0,0" size="0,0" />
+  <webResource name="appReqAudit.jsp" path="jsp/subSystems/auditquery/appReqAudit.jsp" location="0,0" size="0,0" />
+  <webResource name="appReqAuditList.jsp" path="jsp/subSystems/auditquery/appReqAuditList.jsp" location="0,0" size="0,0" />
+  <webResource name="appResAudit.jsp" path="jsp/subSystems/auditquery/appResAudit.jsp" location="0,0" size="0,0" />
+  <webResource name="appResAuditList.jsp" path="jsp/subSystems/auditquery/appResAuditList.jsp" location="0,0" size="0,0" />
+  <webResource name="responseDetail.jsp" path="jsp/subSystems/auditquery/responseDetail.jsp" location="0,0" size="0,0" />
+  <webResource name="appWarnAudit.jsp" path="jsp/subSystems/auditquery/appWarnAudit.jsp" location="0,0" size="0,0" />
+  <webResource name="editRequests.jsp" path="jsp/subSystems/auditquery/editRequests.jsp" location="0,0" size="0,0" />
+  <webResource name="directRegSubSys.jsp" path="jsp/subSystems/auditquery/directRegSubSys.jsp" location="0,0" size="0,0" />
+  <webResource name="updateSystemName.jsp" path="jsp/subSystems/auditquery/updateSystemName.jsp" location="0,0" size="0,0" />
+  <webResource name="requestInfo.jsp" path="newjsp/auditQuery/requestInfo.jsp" location="0,0" size="0,0" />
+  <webResource name="requestInfoList.jsp" path="newjsp/auditQuery/requestInfoList.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

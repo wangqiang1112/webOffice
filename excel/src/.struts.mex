@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <include file="struts-audit.xml" location="0,0" size="0,0" />
+  <include file="struts-home.xml" location="524,430" size="150,30" />
+  <include file="struts-subSystems.xml" location="34,535" size="150,30" />
+  <include file="struts-sysConfig.xml" location="279,535" size="150,30" />
+  <include file="struts-multilevellogin.xml" location="0,0" size="0,0" />
+  <include file="struts-subSystems-appAudit.xml" location="286,220" size="150,30" />
+  <include file="struts-subSystems-auditquery.xml" location="351,115" size="150,30" />
+  <include file="struts-workbench.xml" location="279,640" size="150,30" />
+  <include file="struts-auditTerminal.xml" location="0,0" size="0,0" />
+  <include file="struts-subSystems-warnAudit.xml" location="0,0" size="0,0" />
+  <include file="struts-statisticalAnalysis.xml" location="19,325" size="150,30" />
+</Struts2Diagram>
+

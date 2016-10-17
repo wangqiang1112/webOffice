@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="sysConfig" location="766,10" size="6545,2975">
+    <action name="toDomainQ" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="domainQ.jsp" />
+      </result>
+    </action>
+    <action name="app_ListDomainTree" location="0,0" size="0,0" />
+    <action name="editLocalIPSegment" location="6330,58" size="150,40" />
+    <action name="toDomainIPConfigID" location="6330,162" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="iPSegmentList.jsp" />
+      </result>
+    </action>
+    <action name="toWarnKeyNumbers" location="6330,337" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="warnKeyNumbers.jsp" />
+      </result>
+    </action>
+    <action name="listWarnKeyNumbers" location="6330,512" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="warnKeyNumbersList.jsp" />
+      </result>
+    </action>
+    <action name="addWarnKeyNumbers" location="6085,512" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="delWarnKeyNumbers" location="5840,513" size="150,40" />
+    <action name="toUpdateWarnKeyNumbers" location="5840,687" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="updateWarnKeyNumbers.jsp" />
+      </result>
+    </action>
+    <action name="updateWarnKeyNumbers" location="5840,792" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="exitsWarnKeyNumbers" location="6330,793" size="150,40" />
+    <action name="toDomainIPConfig" location="6330,897" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="domainIPConfig.jsp" />
+      </result>
+    </action>
+    <action name="getsysConfigLeftMenuList" location="6330,1072" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getSysConfigMenuListOfLeft.jsp" />
+      </result>
+    </action>
+    <action name="getSysBasicJspAction" location="6085,1072" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getSysBasicConfigList.jsp" />
+      </result>
+    </action>
+    <action name="getSystemConfigInfo" location="5840,1072" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getSysBasicConfigList.jsp" />
+      </result>
+    </action>
+    <action name="updateSystemConfigInfo" location="5840,1178" size="150,40" />
+    <action name="checkURL" location="5595,1177" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="checkURL.jsp" />
+      </result>
+    </action>
+    <action name="getAdvancedConfigInfo" location="5595,1282" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="advancedConfigList.jsp" />
+      </result>
+    </action>
+    <action name="updateSkinColorInfo" location="5280,1283" size="150,40" />
+    <action name="getAreaList" location="5280,1387" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAreaConfigList.jsp" />
+      </result>
+    </action>
+    <action name="getAreaInfoListAction" location="5035,1387" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getAreaConfigList.jsp" />
+      </result>
+    </action>
+    <action name="checkFdn" location="2690,1377" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="checkURL.jsp" />
+      </result>
+      <result name="faild">
+        <resourceEdge source="faild" routing="0" target="checkURL.jsp" />
+      </result>
+    </action>
+    <action name="addArea" location="2690,1492" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="addAreaAgain" location="2690,1597" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="checkURL.jsp" />
+      </result>
+    </action>
+    <action name="updateArea" location="4720,1598" size="150,40" />
+    <action name="updateFrame" location="4720,1877" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="editAreaConfig.jsp" />
+      </result>
+    </action>
+    <action name="cancelAddOrEdit" location="4475,1877" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="deleteArea" location="4475,1772" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="saveOrder" location="4475,1667" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="getDepartmentConfigList" location="4230,1667" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getDepartmentConfigList.jsp" />
+      </result>
+    </action>
+    <action name="getIPInfoList" location="3950,1667" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getIPInfoList.jsp" />
+      </result>
+    </action>
+    <action name="shareIP" location="3705,1667" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="shareIP.jsp" />
+      </result>
+    </action>
+    <action name="addDepartment" location="3425,1667" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="addDepartment.jsp" />
+      </result>
+    </action>
+    <action name="addDepartmentOfLastStep" location="3180,1657" size="150,62">
+      <result name="success" />
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="updateDepartmentOfLastStep" location="2935,1657" size="150,62">
+      <result name="success" />
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="updateGroupUnite111" location="2935,1762" size="150,62">
+      <result name="success" />
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="deleteDepartmentOfFirstStep" location="2935,1877" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="deleteDepartment.jsp" />
+      </result>
+    </action>
+    <action name="deleteDepartmentOfLastStep" location="2690,1867" size="150,62">
+      <result name="success" />
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="deleteShareIP" location="2690,1982" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="updateShareIPOfFirstStep" location="2690,2087" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="updateShareIPOfFirstStep.jsp" />
+      </result>
+    </action>
+    <action name="updateShareIPOfLastStep" location="2445,2077" size="150,62">
+      <result name="success" />
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="updateShareIPOfFirstStep.jsp" />
+      </result>
+    </action>
+    <action name="shareIPOfLastStep" location="2445,2182" size="150,62">
+      <result name="success" />
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="updateShareIPOfFirstStep.jsp" />
+      </result>
+    </action>
+    <action name="checkDepartmentName" location="2445,2787" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="checkDepartmentName.jsp" />
+      </result>
+    </action>
+    <action name="IPAnalysis" location="2165,2787" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="IPAnalysis.jsp" />
+      </result>
+    </action>
+    <action name="IPReset" location="1920,2787" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="toWarnConfig" location="1920,2892" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="warnConfig.jsp" />
+      </result>
+    </action>
+    <action name="listWarnConfig" location="1640,2892" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="warnConfigList.jsp" />
+      </result>
+    </action>
+    <action name="addNoAuthWarnConfig" location="1640,2787" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="delNoAuthWarnConfig" location="1640,2683" size="150,40" />
+    <action name="toUpdateNoAuthWarnConfig" location="1290,2682" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="updateNoAuthWarnConfig.jsp" />
+      </result>
+    </action>
+    <action name="updateNoAuthWarnConfig" location="1290,2577" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="exitsNoAuthWarnConfigOfSystem" location="1290,2473" size="150,40" />
+    <action name="addSensitiveWarnConfig" location="1045,2472" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="delSensitiveWarnConfig" location="1045,2368" size="150,40" />
+    <action name="toUpdateSensitiveWarnConfig" location="800,2367" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="updateSensitiveWarnConfig.jsp" />
+      </result>
+    </action>
+    <action name="updateSensitiveWarnConfig" location="555,2367" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="exitsSensitiveWarnConfigOfSystem" location="555,2263" size="150,40" />
+    <action name="getSytemTreeForWarnConfig" location="310,2262" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="warnConfigSystemTree.jsp" />
+      </result>
+    </action>
+    <action name="importIPScopes" location="65,2263" size="150,40" />
+    <action name="importSensitive" location="65,2368" size="150,40" />
+  </package>
+  <webResource name="iPSegmentList.jsp" path="jsp/sysConfig/iPSegmentList.jsp" location="7347,135" size="150,55" />
+  <webResource name="warnKeyNumbers.jsp" path="jsp/sysConfig/WarnKeyNumbers/warnKeyNumbers.jsp" location="7350,310" size="150,55" />
+  <webResource name="warnKeyNumbersList.jsp" path="jsp/sysConfig/WarnKeyNumbers/warnKeyNumbersList.jsp" location="7376,485" size="150,55" />
+  <webResource name="updateWarnKeyNumbers.jsp" path="jsp/sysConfig/WarnKeyNumbers/updateWarnKeyNumbers.jsp" location="7363,660" size="150,55" />
+  <webResource name="domainIPConfig.jsp" path="jsp/sysConfig/domainIPConfig.jsp" location="7376,870" size="150,55" />
+  <webResource name="getSysConfigMenuListOfLeft.jsp" path="jsp/sysConfig/getSysConfigMenuListOfLeft.jsp" location="7376,1045" size="150,55" />
+  <webResource name="getSysBasicConfigList.jsp" path="jsp/sysConfig/getSysBasicConfigList.jsp" location="10,1045" size="150,55" />
+  <webResource name="checkURL.jsp" path="jsp/sysConfig/checkURL.jsp" location="184,1570" size="150,55" />
+  <webResource name="advancedConfigList.jsp" path="jsp/sysConfig/advancedConfigList.jsp" location="6316,3040" size="150,55" />
+  <webResource name="getAreaConfigList.jsp" path="jsp/sysConfig/getAreaConfigList.jsp" location="6006,3040" size="150,55" />
+  <webResource name="editAreaConfig.jsp" path="jsp/sysConfig/editAreaConfig.jsp" location="5454,3040" size="150,55" />
+  <webResource name="getDepartmentConfigList.jsp" path="jsp/sysConfig/getDepartmentConfigList.jsp" location="4935,3040" size="150,55" />
+  <webResource name="getIPInfoList.jsp" path="jsp/sysConfig/getIPInfoList.jsp" location="4691,3040" size="150,55" />
+  <webResource name="shareIP.jsp" path="jsp/sysConfig/shareIP.jsp" location="4461,3040" size="150,55" />
+  <webResource name="addDepartment.jsp" path="jsp/sysConfig/addDepartment.jsp" location="4156,3040" size="150,55" />
+  <webResource name="error.jsp" path="jsp/error.jsp" location="366,1850" size="150,55" />
+  <webResource name="deleteDepartment.jsp" path="jsp/sysConfig/deleteDepartment.jsp" location="3660,3040" size="150,55" />
+  <webResource name="updateShareIPOfFirstStep.jsp" path="jsp/sysConfig/updateShareIPOfFirstStep.jsp" location="453,2165" size="150,55" />
+  <webResource name="checkDepartmentName.jsp" path="jsp/sysConfig/checkDepartmentName.jsp" location="3154,3040" size="150,55" />
+  <webResource name="IPAnalysis.jsp" path="jsp/sysConfig/IPAnalysis.jsp" location="2914,3040" size="150,55" />
+  <webResource name="warnConfig.jsp" path="jsp/sysConfig/warnConfig.jsp" location="2664,3040" size="150,55" />
+  <webResource name="warnConfigList.jsp" path="jsp/sysConfig/warnConfigList.jsp" location="2375,3040" size="150,55" />
+  <webResource name="updateNoAuthWarnConfig.jsp" path="jsp/sysConfig/updateNoAuthWarnConfig.jsp" location="1990,3040" size="150,55" />
+  <webResource name="updateSensitiveWarnConfig.jsp" path="jsp/sysConfig/updateSensitiveWarnConfig.jsp" location="1497,3040" size="150,55" />
+  <webResource name="warnConfigSystemTree.jsp" path="jsp/sysConfig/warnConfigSystemTree.jsp" location="1021,3040" size="150,55" />
+  <webResource name="domainQ.jsp" path="jsp/sysConfig/domainQ.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

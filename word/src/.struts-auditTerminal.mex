@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="auditTerminal" location="10,10" size="1015,1995">
+    <action name="editPKIByName" location="800,58" size="150,40" />
+    <action name="ListDepartmentSelect" location="800,162" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="ListDepartmentSelect.jsp" />
+      </result>
+    </action>
+    <action name="updatePkiTerminal" location="555,163" size="150,40" />
+    <action name="toUpdatePkiTerminal" location="555,337" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="updatePkiTerminal.jsp" />
+      </result>
+    </action>
+    <action name="ListPkiTerminal" location="555,512" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="ListPkiTerminal.jsp" />
+      </result>
+    </action>
+    <action name="toListPkiTerminal" location="555,687" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="toListPkiTerminal.jsp" />
+      </result>
+    </action>
+    <action name="existsDepartmentIP" location="555,793" size="150,40" />
+    <action name="editDevicesByDeptIP" location="310,793" size="150,40" />
+    <action name="departmentTree" location="310,688" size="150,40" />
+    <action name="editDevices" location="65,688" size="150,40" />
+    <action name="ListDevices" location="65,862" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="auditTerminalDevicesList.jsp" />
+      </result>
+    </action>
+    <action name="toListDevices" location="65,1037" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="auditTerminalDevices.jsp" />
+      </result>
+    </action>
+    <action name="auditTerminalLeftMenu" location="65,1212" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="audiTerminaltLeftMenu.jsp" />
+      </result>
+    </action>
+    <action name="ListDepartment" location="65,1387" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="auditTerminalDepartmentList.jsp" />
+      </result>
+    </action>
+    <action name="toListDepartment" location="65,1562" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="auditTerminalDepartment.jsp" />
+      </result>
+    </action>
+    <action name="toCreateOrUpdateDepartment" location="65,1737" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="createOrUpdateDepartment.jsp" />
+      </result>
+    </action>
+    <action name="createOrUpdateDepartment" location="65,1913" size="150,40" />
+    <action name="delDepartment" location="310,1913" size="150,40" />
+    <action name="existsDepartment" location="310,1808" size="150,40" />
+  </package>
+  <webResource name="ListDepartmentSelect.jsp" path="newjsp/auditTerminal/ListDepartmentSelect.jsp" location="1087,135" size="150,55" />
+  <webResource name="updatePkiTerminal.jsp" path="newjsp/auditTerminal/updatePkiTerminal.jsp" location="1094,310" size="150,55" />
+  <webResource name="ListPkiTerminal.jsp" path="newjsp/auditTerminal/ListPkiTerminal.jsp" location="1070,485" size="150,55" />
+  <webResource name="toListPkiTerminal.jsp" path="newjsp/auditTerminal/toListPkiTerminal.jsp" location="1064,660" size="150,55" />
+  <webResource name="auditTerminalDevicesList.jsp" path="newjsp/auditTerminal/auditTerminalDevicesList.jsp" location="1077,835" size="150,55" />
+  <webResource name="auditTerminalDevices.jsp" path="newjsp/auditTerminal/auditTerminalDevices.jsp" location="1087,1010" size="150,55" />
+  <webResource name="audiTerminaltLeftMenu.jsp" path="newjsp/auditTerminal/audiTerminaltLeftMenu.jsp" location="1082,1185" size="150,55" />
+  <webResource name="auditTerminalDepartmentList.jsp" path="newjsp/auditTerminal/auditTerminalDepartmentList.jsp" location="1065,1360" size="150,55" />
+  <webResource name="auditTerminalDepartment.jsp" path="newjsp/auditTerminal/auditTerminalDepartment.jsp" location="1074,1535" size="150,55" />
+  <webResource name="createOrUpdateDepartment.jsp" path="newjsp/auditTerminal/createOrUpdateDepartment.jsp" location="1067,1710" size="150,55" />
+</Struts2Diagram>
+

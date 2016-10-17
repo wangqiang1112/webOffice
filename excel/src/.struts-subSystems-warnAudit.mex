@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="warnAudit" location="0,0" size="0,0">
+    <action name="toListWarnAuditALL" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="toListWarnAuditALL.jsp" />
+      </result>
+    </action>
+    <action name="ListWarnAuditALL" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="ListWarnAuditALL.jsp" />
+      </result>
+    </action>
+    <action name="toListWarnAuthority" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="toListWarnAuthority.jsp" />
+      </result>
+    </action>
+    <action name="ListWarnAuthority" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="ListWarnAuthority.jsp" />
+      </result>
+    </action>
+    <action name="toListWarnConfidential" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="toListWarnConfidential.jsp" />
+      </result>
+    </action>
+    <action name="ListWarnConfidential" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="ListWarnConfidential.jsp" />
+      </result>
+    </action>
+    <action name="toListWarnFrenquentQuery" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="toListWarnFrenquentQuery.jsp" />
+      </result>
+    </action>
+    <action name="ListWarnFrenquentQuery" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="ListWarnFrenquentQuery.jsp" />
+      </result>
+    </action>
+    <action name="toListWarnExport" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="toListWarnExport.jsp" />
+      </result>
+    </action>
+    <action name="ListWarnExport" location="0,0" size="0,0">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="ListWarnExport.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="deptIdOption.jsp" path="newjsp/auditQuery/deptIdOption.jsp" location="881,290" size="150,55" />
+  <webResource name="getAppSystemTree2.jsp" path="jsp/newAppAuditQuery/getAppSystemTree2.jsp" location="10,500" size="150,55" />
+  <webResource name="allAppWarm.jsp" path="newjsp/auditQuery/allAppWarm.jsp" location="1445,115" size="150,55" />
+  <webResource name="allAppWarmList.jsp" path="newjsp/auditQuery/allAppWarmList.jsp" location="1750,115" size="150,55" />
+  <webResource name="auditQuery.jsp" path="newjsp/auditQuery/auditQuery.jsp" location="2079,115" size="150,55" />
+  <webResource name="auditQueryList.jsp" path="newjsp/auditQuery/auditQueryList.jsp" location="2384,115" size="150,55" />
+  <webResource name="allAuditQuery.jsp" path="newjsp/auditQuery/allAuditQuery.jsp" location="2702,115" size="150,55" />
+  <webResource name="allAuditQueryList.jsp" path="newjsp/auditQuery/allAuditQueryList.jsp" location="3007,115" size="150,55" />
+  <webResource name="appWarm.jsp" path="newjsp/auditQuery/appWarm.jsp" location="3342,115" size="150,55" />
+  <webResource name="appWarnList.jsp" path="newjsp/auditQuery/appWarnList.jsp" location="3649,115" size="150,55" />
+  <webResource name="getAppSystemTree3.jsp" path="jsp/newAppAuditQuery/getAppSystemTree3.jsp" location="3965,10" size="150,55" />
+  <webResource name="getAppSystemTree6.jsp" path="jsp/newAppAuditQuery/getAppSystemTree6.jsp" location="4350,115" size="150,55" />
+  <webResource name="getAppSystemTree7.jsp" path="jsp/newAppAuditQuery/getAppSystemTree7.jsp" location="4735,115" size="150,55" />
+  <webResource name="getAppSystemTree4.jsp" path="jsp/newAppAuditQuery/getAppSystemTree4.jsp" location="5120,115" size="150,55" />
+  <webResource name="tjLeftMenu.jsp" path="jsp/newAppAuditQuery/tjLeftMenu.jsp" location="5638,115" size="150,55" />
+  <webResource name="appAlls.jsp" path="jsp/newAppAuditQuery/appAlls.jsp" location="5962,115" size="150,55" />
+  <webResource name="alllist.jsp" path="jsp/newAppAuditQuery/alllist.jsp" location="6284,115" size="150,55" />
+  <webResource name="appAlls2.jsp" path="jsp/newAppAuditQuery/appAlls2.jsp" location="6588,115" size="150,55" />
+  <webResource name="alllist2.jsp" path="jsp/newAppAuditQuery/alllist2.jsp" location="6910,115" size="150,55" />
+  <webResource name="list.jsp" path="jsp/newAppAuditQuery/list.jsp" location="7200,115" size="150,55" />
+  <webResource name="appAuditLeftMenu.jsp" path="jsp/subSystems/auditquery/appAuditLeftMenu.jsp" location="7458,115" size="150,55" />
+  <webResource name="appWarnLeftMenu.jsp" path="jsp/subSystems/appWarn/appWarnLeftMenu.jsp" location="7847,115" size="150,55" />
+  <webResource name="gaojing.jsp" path="jsp/newAppAuditQuery/gaojing.jsp" location="8236,115" size="150,55" />
+  <webResource name="appWarnAuditList.jsp" path="jsp/subSystems/auditquery/appWarnAuditList.jsp" location="215,1130" size="150,55" />
+  <webResource name="appAuditTree.jsp" path="jsp/newAppAuditQuery/appAuditTree.jsp" location="8534,115" size="150,55" />
+  <webResource name="appKeys.jsp" path="jsp/newAppAuditQuery/appKeys.jsp" location="9108,1130" size="150,55" />
+  <webResource name="qqs.jsp" path="jsp/newAppAuditQuery/qqs.jsp" location="9087,1305" size="150,55" />
+  <webResource name="warnConfigSystemTree.jsp" path="jsp/sysConfig/warnConfigSystemTree.jsp" location="9095,1480" size="150,55" />
+  <webResource name="getAppSystemTree1.jsp" path="jsp/newAppAuditQuery/getAppSystemTree1.jsp" location="9110,2985" size="150,55" />
+  <webResource name="audits.jsp" path="jsp/newAppAuditQuery/audits.jsp" location="8556,3160" size="150,55" />
+  <webResource name="appnews.jsp" path="jsp/newAppAuditQuery/appnews.jsp" location="8232,3160" size="150,55" />
+  <webResource name="auditList.jsp" path="jsp/newAppAuditQuery/auditList.jsp" location="7919,3160" size="150,55" />
+  <webResource name="getSystemTree.jsp" path="jsp/subSystems/auditquery/getSystemTree.jsp" location="819,2880" size="150,55" />
+  <webResource name="appReqAudit.jsp" path="jsp/subSystems/auditquery/appReqAudit.jsp" location="824,2705" size="150,55" />
+  <webResource name="appReqAuditList.jsp" path="jsp/subSystems/auditquery/appReqAuditList.jsp" location="814,2530" size="150,55" />
+  <webResource name="appResAudit.jsp" path="jsp/subSystems/auditquery/appResAudit.jsp" location="860,2355" size="150,55" />
+  <webResource name="appResAuditList.jsp" path="jsp/subSystems/auditquery/appResAuditList.jsp" location="815,2180" size="150,55" />
+  <webResource name="responseDetail.jsp" path="jsp/subSystems/auditquery/responseDetail.jsp" location="818,2005" size="150,55" />
+  <webResource name="appWarnAudit.jsp" path="jsp/subSystems/auditquery/appWarnAudit.jsp" location="820,1830" size="150,55" />
+  <webResource name="editRequests.jsp" path="jsp/subSystems/auditquery/editRequests.jsp" location="824,1620" size="150,55" />
+  <webResource name="directRegSubSys.jsp" path="jsp/subSystems/auditquery/directRegSubSys.jsp" location="603,1235" size="150,55" />
+  <webResource name="updateSystemName.jsp" path="jsp/subSystems/auditquery/updateSystemName.jsp" location="803,1410" size="150,55" />
+  <webResource name="toListWarnAuditALL.jsp" path="newjsp/warnAudit/toListWarnAuditALL.jsp" location="0,0" size="0,0" />
+  <webResource name="ListWarnAuditALL.jsp" path="newjsp/warnAudit/ListWarnAuditALL.jsp" location="0,0" size="0,0" />
+  <webResource name="toListWarnAuthority.jsp" path="newjsp/warnAudit/toListWarnAuthority.jsp" location="0,0" size="0,0" />
+  <webResource name="ListWarnAuthority.jsp" path="newjsp/warnAudit/ListWarnAuthority.jsp" location="0,0" size="0,0" />
+  <webResource name="toListWarnConfidential.jsp" path="newjsp/warnAudit/toListWarnConfidential.jsp" location="0,0" size="0,0" />
+  <webResource name="ListWarnConfidential.jsp" path="newjsp/warnAudit/ListWarnConfidential.jsp" location="0,0" size="0,0" />
+  <webResource name="toListWarnFrenquentQuery.jsp" path="newjsp/warnAudit/toListWarnFrenquentQuery.jsp" location="0,0" size="0,0" />
+  <webResource name="ListWarnFrenquentQuery.jsp" path="newjsp/warnAudit/ListWarnFrenquentQuery.jsp" location="0,0" size="0,0" />
+  <webResource name="toListWarnExport.jsp" path="newjsp/warnAudit/toListWarnExport.jsp" location="0,0" size="0,0" />
+  <webResource name="ListWarnExport.jsp" path="newjsp/warnAudit/ListWarnExport.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+

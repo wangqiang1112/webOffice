@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="appAudit" location="323,10" size="4585,4900">
+    <action name="exportSystemRegist" location="0,0" size="0,0" />
+    <action name="App_ExistsDomainIP" location="0,0" size="0,0" />
+    <action name="listNeedMergeTitle" location="4370,57" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="listNeedMergeTitle.jsp" />
+      </result>
+    </action>
+    <action name="listMergeTitle" location="4370,232" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="listMergeTitle.jsp" />
+      </result>
+    </action>
+    <action name="createMergeTitle" location="4125,233" size="150,40" />
+    <action name="delMergeTitle" location="4125,128" size="150,40" />
+    <action name="App_EditServerIp" location="3880,128" size="150,40" />
+    <action name="whiteList" location="3880,407" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="whiteList.jsp" />
+      </result>
+    </action>
+    <action name="openOrDownPolicyService" location="3880,583" size="150,40" />
+    <action name="systemCombinationList" location="4370,582" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="systemCombinationList.jsp" />
+      </result>
+    </action>
+    <action name="systemCombination" location="4370,757" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="systemCombination.jsp" />
+      </result>
+    </action>
+    <action name="getListSize" location="4125,758" size="150,40" />
+    <action name="addOrUpdateSysRegist2" location="3880,758" size="150,40" />
+    <action name="toAppAudit" location="3880,932" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appAuditQuery.jsp" />
+      </result>
+    </action>
+    <action name="listAppAudit" location="3880,1107" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appAuditQueryList.jsp" />
+      </result>
+    </action>
+    <action name="exportAppAuditQueryData" location="3635,1108" size="150,40" />
+    <action name="showAuditDetail" location="3635,1282" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="appAuditQueryDetail.jsp" />
+      </result>
+    </action>
+    <action name="toSystemRegist" location="3635,1457" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="systemRegist.jsp" />
+      </result>
+    </action>
+    <action name="listSystemRegist" location="3635,1632" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="systemRegistList.jsp" />
+      </result>
+    </action>
+    <action name="toAddOrUpdateSysRegist" location="3635,1807" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="addOrUpdateSysRegist.jsp" />
+      </result>
+    </action>
+    <action name="addOrUpdateSysRegist" location="3390,1808" size="150,40" />
+    <action name="existsSysRegist" location="3390,1703" size="150,40" />
+    <action name="delSysRegist" location="3145,1703" size="150,40" />
+    <action name="listRequestRegister" location="3145,1982" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="requestRegisterList.jsp" />
+      </result>
+    </action>
+    <action name="updateRequestRegister" location="2900,1983" size="150,40" />
+    <action name="existsRequestRegister" location="2900,1878" size="150,40" />
+    <action name="delReqRegist" location="2900,1772" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="addRequestRegistSecond" location="2655,1773" size="150,40" />
+    <action name="toSubSystemRegist" location="2655,2157" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="subSystemRegist.jsp" />
+      </result>
+    </action>
+    <action name="listSubSystemRegist" location="2655,2332" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="subSystemRegistList.jsp" />
+      </result>
+    </action>
+    <action name="toUpdateSubSystem" location="2655,2507" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="subSystemUpdate.jsp" />
+      </result>
+    </action>
+    <action name="updateSubSystem" location="2410,2508" size="150,40" />
+    <action name="toSysCategoryRegist" location="2410,2682" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="sysCategory.jsp" />
+      </result>
+    </action>
+    <action name="listSysCategoryRegist" location="2410,2857" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="sysCategoryList.jsp" />
+      </result>
+    </action>
+    <action name="existsCategoryRegist" location="2165,2858" size="150,40" />
+    <action name="addSysCategory" location="2165,2753" size="150,40" />
+    <action name="updateSysCategory" location="2165,2648" size="150,40" />
+    <action name="delSysCategory" location="1920,2647" size="150,41">
+      <result name="success" />
+    </action>
+    <action name="getSysCategoryTree" location="1920,3032" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="sysCategoryTree.jsp" />
+      </result>
+    </action>
+    <action name="isCategoryUse" location="1675,3033" size="150,40" />
+    <action name="getSystemRegistLeftMenuList" location="1675,3207" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getSystemRegistLeftMenuList.jsp" />
+      </result>
+    </action>
+    <action name="titleWhiteList" location="1675,3382" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="titleWhiteList.jsp" />
+      </result>
+    </action>
+    <action name="existsTitleWhite" location="1430,3383" size="150,40" />
+    <action name="createTitleWhite" location="1430,2928" size="150,40" />
+    <action name="updateTitleWhite" location="1675,2928" size="150,40" />
+    <action name="delTitleWhite" location="1675,2823" size="150,40" />
+    <action name="importTitleWhite" location="1290,2823" size="150,40" />
+    <action name="getSysCategoryTreeBox" location="1290,3557" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="sysCategoryTreeBox.jsp" />
+      </result>
+    </action>
+    <action name="importSystemRegist" location="1045,3558" size="150,40" />
+    <action name="editTitleRegisterAuditAll" location="800,3558" size="150,40" />
+    <action name="toListHistoryAudit" location="800,3732" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="historyAudit.jsp" />
+      </result>
+    </action>
+    <action name="toListHistoryAuditForSub" location="800,3907" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="historyAuditForSub.jsp" />
+      </result>
+    </action>
+    <action name="listHistoryAudit" location="800,4082" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="historyAuditList.jsp" />
+      </result>
+    </action>
+    <action name="exportHistoryAudit" location="555,4083" size="150,40" />
+    <action name="analyzeRequests" location="555,4257" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="analyzeRequests.jsp" />
+      </result>
+    </action>
+    <action name="editRequestsForAnalyze" location="310,4258" size="150,40" />
+    <action name="showHistoryKeyDetail" location="310,4432" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="historyKeyDetail.jsp" />
+      </result>
+    </action>
+    <action name="getSubSystemTree" location="310,4607" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="getSubSystemTree.jsp" />
+      </result>
+    </action>
+    <action name="existsIpInDomain" location="310,4713" size="150,40" />
+    <action name="existsIpAndUrl" location="65,4713" size="150,40" />
+    <action name="listIPSegment" location="65,4817" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="iPSegmentList.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="listNeedMergeTitle.jsp" path="jsp/subSystems/appAudit/comsystem/listNeedMergeTitle.jsp" location="4964,30" size="150,55" />
+  <webResource name="listMergeTitle.jsp" path="jsp/subSystems/appAudit/comsystem/listMergeTitle.jsp" location="4945,205" size="150,55" />
+  <webResource name="whiteList.jsp" path="jsp/subSystems/appAudit/whiteList.jsp" location="4960,380" size="150,55" />
+  <webResource name="systemCombinationList.jsp" path="jsp/subSystems/appAudit/systemCombinationList.jsp" location="4953,555" size="150,55" />
+  <webResource name="systemCombination.jsp" path="jsp/subSystems/appAudit/systemCombination.jsp" location="4962,730" size="150,55" />
+  <webResource name="appAuditQuery.jsp" path="jsp/subSystems/appAudit/appAuditQuery.jsp" location="4975,905" size="150,55" />
+  <webResource name="appAuditQueryList.jsp" path="jsp/subSystems/appAudit/appAuditQueryList.jsp" location="4966,1080" size="150,55" />
+  <webResource name="appAuditQueryDetail.jsp" path="jsp/subSystems/appAudit/appAuditQueryDetail.jsp" location="4959,1255" size="150,55" />
+  <webResource name="systemRegist.jsp" path="jsp/subSystems/appAudit/systemRegist.jsp" location="4946,1430" size="150,55" />
+  <webResource name="systemRegistList.jsp" path="jsp/subSystems/appAudit/systemRegistList.jsp" location="4972,1605" size="150,55" />
+  <webResource name="addOrUpdateSysRegist.jsp" path="jsp/subSystems/appAudit/addOrUpdateSysRegist.jsp" location="4951,1780" size="150,55" />
+  <webResource name="requestRegisterList.jsp" path="jsp/subSystems/appAudit/requestRegisterList.jsp" location="4964,1955" size="150,55" />
+  <webResource name="subSystemRegist.jsp" path="jsp/subSystems/appAudit/subSystemRegist.jsp" location="4970,2130" size="150,55" />
+  <webResource name="subSystemRegistList.jsp" path="jsp/subSystems/appAudit/subSystemRegistList.jsp" location="4961,2305" size="150,55" />
+  <webResource name="subSystemUpdate.jsp" path="jsp/subSystems/appAudit/subSystemUpdate.jsp" location="4967,2480" size="150,55" />
+  <webResource name="sysCategory.jsp" path="jsp/subSystems/appAudit/sysCategory.jsp" location="4949,2655" size="150,55" />
+  <webResource name="sysCategoryList.jsp" path="jsp/subSystems/appAudit/sysCategoryList.jsp" location="4974,2830" size="150,55" />
+  <webResource name="sysCategoryTree.jsp" path="jsp/subSystems/appAudit/sysCategoryTree.jsp" location="4971,3005" size="150,55" />
+  <webResource name="getSystemRegistLeftMenuList.jsp" path="jsp/subSystems/appAudit/getSystemRegistLeftMenuList.jsp" location="4970,3180" size="150,55" />
+  <webResource name="titleWhiteList.jsp" path="jsp/subSystems/appAudit/titleWhiteList.jsp" location="4948,3355" size="150,55" />
+  <webResource name="sysCategoryTreeBox.jsp" path="jsp/subSystems/appAudit/sysCategoryTreeBox.jsp" location="4960,3530" size="150,55" />
+  <webResource name="historyAudit.jsp" path="jsp/subSystems/appAudit/historyAudit.jsp" location="4950,3705" size="150,55" />
+  <webResource name="historyAuditForSub.jsp" path="jsp/subSystems/appAudit/historyAuditForSub.jsp" location="4964,3880" size="150,55" />
+  <webResource name="historyAuditList.jsp" path="jsp/subSystems/appAudit/historyAuditList.jsp" location="4975,4055" size="150,55" />
+  <webResource name="analyzeRequests.jsp" path="jsp/subSystems/appAudit/analyzeRequests.jsp" location="4971,4230" size="150,55" />
+  <webResource name="historyKeyDetail.jsp" path="jsp/subSystems/appAudit/historyKeyDetail.jsp" location="4973,4405" size="150,55" />
+  <webResource name="getSubSystemTree.jsp" path="jsp/subSystems/appAudit/getSubSystemTree.jsp" location="4965,4580" size="150,55" />
+  <webResource name="iPSegmentList.jsp" path="jsp/subSystems/appAudit/iPSegmentList.jsp" location="9,4790" size="150,55" />
+</Struts2Diagram>
+
