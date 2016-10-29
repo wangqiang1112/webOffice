@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<!--预警模块-->
+<struts>
+    <package name="early-warning" extends="yw-default" namespace="/early-warning">
+        <action name="index" class="indexAction" method="index">
+            <result>/jsp/earlywarning/index/main.jsp</result>
+        </action>
+    </package>
+
+    <!--首页-->
+    <package name="early-warning-index" extends="early-warning" namespace="/early-warning/index">
+        <action name="unit-risk-level-list" class="indexAction" method="getUnitRiskLevelList">
+        </action>
+
+        <action name="risk-level-config" class="indexAction" method="getRiskLevelConfig">
+        </action>
+
+        <action name="avg-unit-risk-level" class="indexAction" method="getAvgUnitRiskLevel">
+        </action>
+
+        <action name="hole-stat-by-class" class="indexAction" method="getHoleStatisticsByClassification">
+        </action>
+
+        <action name="incident-stat-by-class" class="indexAction" method="getIncidentStatisticsByClassification">
+        </action>
+
+    </package>
+
+    <!--安全态势-->
+    <package name="early-warning-security-situation" extends="early-warning" namespace="/early-warning/security-situation">
+        <!--安全事件趋势分析-->
+        <action name="incident" class="securitySituationAction" method="incident">
+            <result>/jsp/earlywarning/security-situation/incident.jsp</result>
+        </action>
+         <!--安全事件趋势分析局部刷新-->
+        <action name="incident2" class="securitySituationAction" method="incident2">
+            <result>/jsp/earlywarning/security-situation/incident2.jsp</result>
+        </action>
+        <!--安全漏洞趋势分析-->
+        <action name="hole" class="securitySituationAction" method="hole">
+            <result>/jsp/earlywarning/security-situation/hole.jsp</result>
+        </action>
+          <!--安全漏洞趋势分析局部刷新-->
+        <action name="hole2" class="securitySituationAction" method="hole2">
+            <result>/jsp/earlywarning/security-situation/hole2.jsp</result>
+        </action>
+    </package>
+
+    <!--配置维护-->
+    <package name="early-warning-config" extends="early-warning" namespace="/early-warning/config">
+        <action name="incident-category" class="incidentCategoryAction" method="main">
+            <result>/jsp/earlywarning/config/incident-category/main.jsp</result>
+        </action>
+        <action name="hole-category" class="holeCategoryAction" method="main">
+            <result>/jsp/earlywarning/config/hole-category/main.jsp</result>
+        </action>
+        <action name="info-category" class="infoCategoryAction" method="main">
+            <result>/jsp/earlywarning/config/info-category/main.jsp</result>
+        </action>
+        <action name="risk-notification" class="riskNotificationAction" method="main">
+            <result>/jsp/earlywarning/config/risk-notification/main.jsp</result>
+        </action>
+        <action name="risk-rule" class="riskRuleAction" method="main">
+            <result>/jsp/earlywarning/config/risk-rule/main.jsp</result>
+        </action>
+        <action name="noticeObjConfig" class="riskNotificationAction" method="noticeObjConfig">
+            <result>/jsp/earlywarning/config/risk-notification/noticeObjConfig.jsp</result>
+        </action>
+        <action name="saveNoticeConfig" class="riskNotificationAction" method="saveNoticeConfig">
+        </action>
+    </package>
+    <!--安全事件分类配置-->
+    <package name="early-warning-config-incident-category" extends="early-warning-config" namespace="/early-warning/config/incident-category">
+
+        <action name="to-add-or-edit" class="incidentCategoryAction" method="toAddOrEdit">
+            <result>/jsp/earlywarning/config/incident-category/add-or-edit.jsp</result>
+        </action>
+
+        <action name="add-or-edit" class="incidentCategoryAction" method="addOrEdit"></action>
+
+        <action name="exist" class="incidentCategoryAction" method="exist"></action>
+
+        <action name="delete" class="incidentCategoryAction" method="delete"></action>
+
+    </package>
+    <!--安全漏洞分类配置-->
+    <package name="early-warning-config-hole-category" extends="early-warning-config" namespace="/early-warning/config/hole-category">
+
+        <action name="to-add-or-edit" class="holeCategoryAction" method="toAddOrEdit">
+            <result>/jsp/earlywarning/config/hole-category/add-or-edit.jsp</result>
+        </action>
+
+        <action name="add-or-edit" class="holeCategoryAction" method="addOrEdit"></action>
+
+        <action name="exist" class="holeCategoryAction" method="exist"></action>
+
+        <action name="delete" class="holeCategoryAction" method="delete"></action>
+
+    </package>
+    <!--权威信息分类配置-->
+    <package name="early-warning-config-info-category" extends="early-warning-config" namespace="/early-warning/config/info-category">
+
+        <action name="to-add-or-edit" class="infoCategoryAction" method="toAddOrEdit">
+            <result>/jsp/earlywarning/config/info-category/add-or-edit.jsp</result>
+        </action>
+
+        <action name="add-or-edit" class="infoCategoryAction" method="addOrEdit"></action>
+
+        <action name="exist" class="infoCategoryAction" method="exist"></action>
+
+        <action name="delete" class="infoCategoryAction" method="delete"></action>
+
+    </package>
+    <!--风险通知管理-->
+    <package name="early-warning-config-risk-notification" extends="early-warning-config" namespace="/early-warning/config/risk-notification">
+
+        <action name="config-mode" class="riskNotificationAction" method="configMode"></action>
+
+        <action name="to-config-template" class="riskNotificationAction" method="toConfigTemplate">
+            <result>/jsp/earlywarning/config/risk-notification/config-template.jsp</result>
+        </action>
+
+        <action name="config-template" class="riskNotificationAction" method="configTemplate"></action>
+    </package>
+    <!--风险规则配置-->
+    <package name="early-warning-config-risk-rule" extends="early-warning-config" namespace="/early-warning/config/risk-rule">
+
+        <action name="config-risk-weight" class="riskRuleAction" method="configRiskWeight"></action>
+
+        <action name="config-risk-level" class="riskRuleAction" method="configRiskLevel"></action>
+    </package>
+
+    <!--预警处理-->
+    <!--安全事件处理-->
+    <package name="early-warning-dispose-incident" extends="yw-default" namespace="/early-warning/dispose-incident">
+        <action name="main" class="incidentAction" method="main">
+            <result>/jsp/earlywarning/dispose/incident/main.jsp</result>
+        </action>
+        <action name="toHandle" class="incidentAction" method="toHandle">
+            <result>/jsp/earlywarning/dispose/incident/handle.jsp</result>
+        </action>
+        <action name="toIncImport" class="incidentAction" method="toIncImport">
+            <result>/jsp/earlywarning/importTemplate/importIncExcel.jsp</result>
+        </action>
+        <action name="handle" class="incidentAction" method="handle"></action>
+        <action name="editState" class="incidentAction" method="editState"></action>
+        <action name="importExcel" class="incidentAction" method="importExcel"></action>
+        <action name="exportModel" class="incidentAction" method="exportModel"></action>
+        <!--导出安全事件-->
+		<action name="exportIncList" class="incidentAction" method="exportIncList"></action>
+    </package>
+    <!--安全漏洞处理-->
+    <package name="early-warning-dispose-vulnerability" extends="yw-default" namespace="/early-warning/dispose-vulnerability">
+        <action name="main" class="vulnerabilityAction" method="main">
+            <result>/jsp/earlywarning/dispose/vulnerability/main.jsp</result>
+        </action>
+        <action name="toHandle" class="vulnerabilityAction" method="toHandle">
+            <result>/jsp/earlywarning/dispose/vulnerability/handle.jsp</result>
+        </action>
+        <action name="getUnitsList" class="vulnerabilityAction" method="getUnitsList">
+            <result>/jsp/earlywarning/dispose/vulnerability/unitSelects.jsp</result>
+        </action>
+        <action name="toVulImport" class="vulnerabilityAction" method="toVulImport">
+            <result>/jsp/earlywarning/importTemplate/importIncExcel.jsp</result>
+        </action>
+        <action name="handle" class="vulnerabilityAction" method="handle"></action>
+        <action name="editState" class="vulnerabilityAction" method="editState"></action>
+        <action name="importExcel" class="vulnerabilityAction" method="importExcel"></action>
+        <action name="exportVulList" class="vulnerabilityAction" method="exportVulList"></action>
+        <action name="exportModel" class="vulnerabilityAction" method="exportModel"></action>
+    </package>
+    <!--权威信息处理-->
+    <package name="early-warning-dispose-riskInfo" extends="yw-default" namespace="/early-warning/dispose-riskInfo">
+        <action name="main" class="riskInfoAction" method="main">
+            <result>/jsp/earlywarning/dispose/riskInfo/main.jsp</result>
+        </action>
+        <action name="toHandle" class="riskInfoAction" method="toHandle">
+            <result>/jsp/earlywarning/dispose/riskInfo/handle.jsp</result>
+        </action>
+        <action name="toRiskInfoImport" class="riskInfoAction" method="toRiskInfoImport">
+            <result>/jsp/earlywarning/importTemplate/importIncExcel.jsp</result>
+        </action>
+        <action name="getUnitIds" class="riskInfoAction" method="getUnitIds">
+            <result>/jsp/earlywarning/dispose/riskInfo/receive-unit.jsp</result>
+        </action>
+        <action name="toProgress" class="riskInfoAction" method="toProgress">
+            <result>/jsp/earlywarning/dispose/riskInfo/progress.jsp</result>
+        </action>
+        <action name="handle" class="riskInfoAction" method="handle"></action>
+        <action name="editState" class="riskInfoAction" method="editState"></action>
+        <action name="importExcel" class="riskInfoAction" method="importExcel"></action>
+        <action name="exportModel" class="riskInfoAction" method="exportModel"></action>
+        <action name="exportriskInfoList" class="riskInfoAction" method="exportriskInfoList"></action>
+    </package>
+    <!--短信监控-->
+    <package name="early-warning-dispose-msgcon" extends="yw-default" namespace="/early-warning/dispose-msgCtrl">
+        <action name="main" class="msgControlAction" method="main">
+            <result>/jsp/earlywarning/dispose/msgcontrol/main.jsp</result>
+        </action>
+        <action name="send" class="msgControlAction" method="send">
+            <result>/jsp/earlywarning/dispose/msgcontrol/send.jsp</result>
+        </action>
+        <action name="get" class="msgControlAction" method="get">
+            <result>/jsp/earlywarning/dispose/msgcontrol/get.jsp</result>
+        </action>
+        <action name="delete" class="msgControlAction" method="delete"></action>
+        <action name="sendMsg" class="msgControlAction" method="sendMsg"></action>
+        <action name="addOrEdit" class="msgControlAction" method="addOrEdit"></action>
+        <action name="toAddOrEdit" class="msgControlAction" method="toAddOrEdit">
+            <result>/jsp/earlywarning/dispose/msgcontrol/add-or-edit.jsp</result>
+        </action>
+        <action name="details" class="msgControlAction" method="details">
+            <result>/jsp/earlywarning/dispose/msgcontrol/details.jsp</result>
+        </action>
+        <action name="receiveUnit" class="msgControlAction" method="receiveUnit">
+            <result>/jsp/earlywarning/dispose/msgcontrol/receive-unit.jsp</result>
+        </action>
+    </package>
+</struts>
